@@ -20,5 +20,6 @@ if time_bound == "yes":
 else:
     reminder = "Note: " + reminder + ". Consider completing it when you have free time."
 
-# Print customized reminder
-print("\nReminder:", reminder)
+# Print customized reminder (formatted exactly as required)
+print(f"Reminder: {reminder}")
+
