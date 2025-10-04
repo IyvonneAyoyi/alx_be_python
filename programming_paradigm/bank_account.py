@@ -3,7 +3,7 @@ class BankAccount:
         """
         Initialize the bank account with an optional initial balance.
         """
-        self.__account_balance = initial_balance  
+        self.__account_balance = initial_balance
 
     def deposit(self, amount):
         """
@@ -29,9 +29,8 @@ class BankAccount:
         else:
             return False
 
-def display_balance(self):
-    """
-    Display the current account balance.
-    """
-    print(f"Current Balance: ${self.__account_balance:.2f}")
-
+    def display_balance(self):
+        """
+        Display the current account balance.
+        """
+        print(f"Current Balance: ${self.__account_balance:.2f}")
