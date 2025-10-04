@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, initial_balance=0):
+    def __init__(self, initial_balance=0.00):
         """
         Initialize the bank account with an optional initial balance.
         """
